@@ -24,13 +24,13 @@ Enable the sensor by adding the following to your {% term "`configuration.yaml`"
 ```yaml
 # Example configuration.yaml entry
 ebusd:
-  host: 127.0.0.1
+  host: 192.123.123.1 (see below)
   circuit: "700"
 ```
 
 {% configuration %}
 host:
-  description: This is the IP address of your ebus daemon, e.g., `127.0.0.1`.
+  description: This is the IP address of YOUR ebus daemon, e.g., `192.123.123.1`.
   required: true
   type: string
 circuit:
